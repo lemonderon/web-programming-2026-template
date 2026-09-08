@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList App</title>
+</head>
+<body>
+<h3>Add Task</h3>
+<form action="{% url 'todolist:add_task' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit">
+</form>
+<a href="{% url 'todolist:tasks_list' %}">View task list</a>
+</body>
+</html>
+

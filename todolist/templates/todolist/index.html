@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList App</title>
+</head>
+<body>
+<h3>Tasks:</h3>
+<ul>
+    {% for item in todolist %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'todolist:add_task' %}">Add new task</a>
+</body>
+</html>
+
