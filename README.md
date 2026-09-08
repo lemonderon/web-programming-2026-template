@@ -1,6 +1,9 @@
 # web-programming-2026-template
 
-A Django project with greeting pages and a to-do list.
+A lightweight Django starter with one neutral homepage, SQLite, and Django's
+standard admin, authentication, sessions, and staticfiles support.
+
+`requirements.txt` pins Django 6.1.1, asgiref 3.12.1, and sqlparse 0.6.0.
 
 ## Local setup
 
@@ -38,14 +41,14 @@ With the server running at `http://127.0.0.1:8000`:
 
 | URL | Page |
 | --- | --- |
-| http://127.0.0.1:8000/ | Basic greeting |
-| http://127.0.0.1:8000/fancy-hello | Greeting with a header |
-| http://127.0.0.1:8000/Ada | Personal greeting (`Ada` can be replaced with another name) |
-| http://127.0.0.1:8000/todolist/ | Task list |
-| http://127.0.0.1:8000/todolist/add/ | Add a task |
+| http://127.0.0.1:8000/ | Homepage: “Your project starts here” |
 | http://127.0.0.1:8000/admin/ | Django admin (requires an admin account) |
 
-The greeting routes `/fancy-hello` and `/<name>` do not have trailing slashes.
+To create an account for the admin site, run this after applying migrations:
+
+```bash
+python manage.py createsuperuser
+```
 
 ## Development only
 
