@@ -1,4 +1,6 @@
-"""ASGI application for mysite.
+"""ASGI config for mysite project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
 
 https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/
 """
