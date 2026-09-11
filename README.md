@@ -5,8 +5,7 @@ standard admin, authentication, sessions, messages, and staticfiles support.
 
 ## Local setup
 
-Requires the latest patch release of Python 3.12, 3.13, or 3.14, with SQLite
-3.37.0 or newer. Run these commands from the project directory containing
+Requires the latest patch release of Python 3.12, 3.13, or 3.14. Run these commands from the project directory containing
 `manage.py`.
 
 1. Create and activate a virtual environment:
