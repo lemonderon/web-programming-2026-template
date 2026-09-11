@@ -3,8 +3,6 @@
 A reusable Django project with no bundled application, SQLite, and Django's
 standard admin, authentication, sessions, messages, and staticfiles support.
 
-`requirements.txt` pins Django 6.1.1, asgiref 3.12.1, and sqlparse 0.6.0.
-
 ## Local setup
 
 Requires the latest patch release of Python 3.12, 3.13, or 3.14, with SQLite
@@ -14,7 +12,7 @@ Requires the latest patch release of Python 3.12, 3.13, or 3.14, with SQLite
 1. Create and activate a virtual environment (Linux/macOS):
 
    ```bash
-   python3 -m venv .venv
+   python -m venv .venv
    source .venv/bin/activate
    ```
 
@@ -96,7 +94,6 @@ python check_submission.py --format
 ### 3. PyCharm Integration
 If you use PyCharm:
 - **One-Click Run:** In the top-right toolbar run configurations dropdown, select **"Verify Submission"** or **"Format Project"** and click the green **Play** button.
-- **Real-Time Highlighting:** Install the official **Ruff** plugin from *Settings > Plugins > Marketplace* to receive real-time PEP-8 warnings and quick-fixes as you type.
 
 ## Development only
 
