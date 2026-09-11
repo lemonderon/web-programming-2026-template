@@ -21,8 +21,9 @@ Requires the latest patch release of Python 3.12, 3.13, or 3.14, with SQLite
 2. Install dependencies:
 
    ```bash
-   python -m pip install -r requirements.txt
+   python -m pip install -r requirements-dev.txt
    ```
+
 
 3. Apply migrations to create the local SQLite database:
 
@@ -71,6 +72,31 @@ python manage.py createsuperuser
 See the official Django 6.1 tutorial for
 [views and URL registration](https://docs.djangoproject.com/en/6.1/intro/tutorial01/)
 and [app registration and models](https://docs.djangoproject.com/en/6.1/intro/tutorial02/).
+
+## Code style and submission verification
+
+All submissions are required to adhere to PEP-8, Django best practices, and standard HTML/CSS/JS formatting. A deterministic cross-platform utility is provided to help you check and format your code.
+
+### 1. Verification (Check Mode)
+Before submitting, verify that all files adhere to the required standards:
+
+```bash
+python check_submission.py
+```
+
+If all checks pass, you are ready to submit! If any checks fail, review the error output or run the auto-formatter below.
+
+### 2. Auto-Formatting
+To automatically format Python files, fix safe PEP-8 rules, format Django HTML templates, and format CSS/JS static files:
+
+```bash
+python check_submission.py --format
+```
+
+### 3. PyCharm Integration
+If you use PyCharm:
+- **One-Click Run:** In the top-right toolbar run configurations dropdown, select **"Verify Submission"** or **"Format Project"** and click the green **Play** button.
+- **Real-Time Highlighting:** Install the official **Ruff** plugin from *Settings > Plugins > Marketplace* to receive real-time PEP-8 warnings and quick-fixes as you type.
 
 ## Development only
 
