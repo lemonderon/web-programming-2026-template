@@ -1,11 +1,11 @@
-## Task
-<!-- Link to the assignment. -->
+## Завдання
+<!-- Посилання на завдання на distedu -->
 
-## Summary
-<!-- In 1-2 sentences, describe what changed and why. No need to list files. -->
+## Короткий опис змін
+<!-- В 1-2 речення опишіть, що в проєкті було змінено/додано -->
 
-## AI usage
-<!-- If you used AI, answer all three questions below. Otherwise, write "Not used" and remove the prompts. -->
-- Tools used:
-- What I used them for:
-- How I verified the result:
+## Використання ШІ
+<!-- За використання інструментів ШІ, надайте відповіді на всі три питання наведені нижче. Якщо не використовували, то так і зазначте "Не використовувався" і приберіть 3 питання нижче тоді -->
+- Які інструменти ви використовували?
+- Що саме зробили з їхньою допомогою?
+- Як перевірили результат?
